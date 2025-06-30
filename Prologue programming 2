@@ -1,0 +1,22 @@
+
+
+Facts:
+Ram likes mango.
+Seema is a girl.
+Bill likes Cindy.
+Rose is red.
+John owns gold.
+
+Code:
+likes(ram, mango). 
+likes(bill, cindy).
+girl(seema). 
+red(rose). 
+owns(john, gold). 
+Query:
+likes(ram,What).
+likes(Who,cindy). 
+red(What). 
+owns(Who,What).
+
+
