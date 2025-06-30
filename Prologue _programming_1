@@ -1,0 +1,14 @@
+Facts:
+Pheonix is hot in summer.
+Loss Angels is warm in winter.
+Pheonix is warm in winter.
+
+Query:
+Which city is hot in summer?
+Which city is hot in summer and warm in winter?
+
+Code: 
+weather(pheonix,hot,summer). weather(lossangles,warm,winter). weather(pheonix,warm,winter).
+
+Query:
+weather(X,hot,summer). weather(X,hot,summer),weather(X,warm,winter).
